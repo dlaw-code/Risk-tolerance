@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
 const data = require("./data");
-const Portfolio = require("./models/portfolio");
-const portfolioRoute = require("./routes/portflioRoute");
+const Portfolio = require("./src/models/portfolio");
+const portfolioRoute = require("./src/routes/portflioRoute");
 //ROUTE IMPORTS
 
 dotenv.config();
