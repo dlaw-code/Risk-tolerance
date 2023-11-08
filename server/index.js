@@ -11,7 +11,8 @@ const portfolioRoute = require("./src/routes/portflioRoute");
 dotenv.config();
 
 //mongo db
-const dbURL = process.env.MONGO_URL;
+const dbURL ="mongodb+srv://lotoDEE:malcomx0147@cluster0.xs1zhyd.mongodb.net/ATAfrica";
+
 console.log(dbURL);
 mongoose
   .connect(dbURL)
@@ -47,7 +48,7 @@ async function insertPortfolioData() {
 
 // insertPortfolioData();
 
-const port = process.env.PORT;
+const port = 5000;
 
 const server = app.listen(port || 5000, () => {
   if (process.env.NODE_ENV !== "production") {
