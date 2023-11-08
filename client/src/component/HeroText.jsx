@@ -41,7 +41,7 @@ const HeroText = () => {
   }, [sliderValue]);
 
   return (
-    <div className="w-11/12 md-w-10/12 mx-auto pt-10 flex-dc">
+    <div className="w-11/12 md-w-10/12 mx-auto pt-10 flex-dc sizer">
       <div className="flex gap-8 justify-between">
         <div className="flex gap-6 flex-col w-1/2 text-left">
           <h1 className="text-white font-bold text-5xl">
