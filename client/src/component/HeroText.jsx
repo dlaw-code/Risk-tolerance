@@ -26,7 +26,8 @@ const HeroText = () => {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `http://localhost:5000/api/user/portfolio/${sliderValue}`
+        `risk-tolerance-server.vercel.app
+        /api/user/portfolio/${sliderValue}`
       );
       const responseData = response.data;
       console.log(responseData);
